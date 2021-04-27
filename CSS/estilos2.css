@@ -1,0 +1,120 @@
+h1{ 
+    color: red;
+    font-family: 'Abril Fatface', cursive;
+    font-weight:normal;
+    font-size: 70pt;
+    }
+h2{
+    color: white;
+    border:grey 1px; 
+    font-family:'Oswald', sans-serif;
+    font-weight:bold; font-size: 11pt; 
+    border: none;
+   }
+header{
+    margin:0 0 2px 0;
+    height:10%;
+    width:100%;
+    background-color:black ;
+
+}      
+.menu ul{
+     width:1300px;
+     margin:0 0 10px 0;
+     list-style: none;
+     padding: 0;
+     display:flex;
+     flex-direction:row;
+     justify-content:flex-end;
+     flex-wrap: nowrap;
+     align-items:flex-end;       
+}        
+.menu li:hover{
+          background:grey;
+          color: white;
+    }
+.menu li a {
+       display: block;
+       padding: 5px 20px;
+       margin: 1;
+       color:white;
+       text-decoration: none;
+}
+body{ 
+    background-color: black;
+}
+.TitIndex{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    align-content:flex-start;
+    position: absolute;
+    top:480px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.fondo{
+       background-color: black;
+       display: flex;
+       flex-direction:row;
+       width:1300px;
+       height: 800px;
+       justify-content: center;
+       align-content: center;
+       
+
+}
+#fondo1{
+    background-image: url("https://media.gettyimages.com/photos/drummer-charlie-watts-of-the-rolling-stones-during-the-production-of-picture-id109767459?k=6&m=109767459&s=612x612&w=0&h=nUoGF8NiZCKBvM9soO_tu6Z1PSIA4ZR2vhhru7v16ro=");
+    width:350px;
+    height:600px;
+    margin:5px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+    position: relative;
+    
+}
+#fondo2{
+    background-image: url("https://media.gettyimages.com/photos/the-rolling-stones-perform-at-the-rosemont-horizon-chicago-illinois-picture-id158487997?k=6&m=158487997&s=612x612&w=0&h=TkH9R6aAytHm8pWDN3aVMDAhf_otaocAOsfbISnMSy8=");
+    width: 350px;
+    height:600px;
+    margin:5px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-end;
+    position: relative;
+   
+}
+#fondo3{
+    background-image: url("https://media.gettyimages.com/photos/mick-jagger-en-concert-avec-les-rolling-stones-le-29-avril-1976-picture-id800285992?k=6&m=800285992&s=612x612&w=0&h=O-YOIO1VW_5ZtqyBWSKakD09dFO6ajpcIwRz3dcNnZQ=");
+    width: 350px;
+    height:600px;
+    margin:5px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+    position: relative;
+    
+}
+#fondo4{
+    background-image:url("https://media.gettyimages.com/photos/the-rolling-stones-perform-at-the-rosemont-horizon-chicago-illinois-picture-id158489825?k=6&m=158489825&s=612x612&w=0&h=Zorl7D1DbeL6R9MKpgbRf3fx3dZAJtjLxjq6OHD-Yv0=");
+    width:350px;
+    height:600px;
+    margin:5px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-end;
+    position: relative;
+   
+}

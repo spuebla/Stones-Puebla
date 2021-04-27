@@ -1,0 +1,435 @@
+@import url(header.scss);
+@import url(footer);
+@import url(generales.scss);
+
+h1{ 
+    color: red;
+    font-family: 'Abril Fatface', cursive;
+    font-weight:normal;
+    font-size: 70pt;
+    }
+ h2{
+     color: white;
+     border:grey 1px; 
+     font-family:'Oswald', sans-serif;
+     font-weight:bold; font-size: 11pt; 
+     border: none;
+    }
+ 
+ h4 {
+     color:black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size:20pt;
+    }
+ p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+   }
+
+ 
+ table{
+       color: black; 
+       font-family: Helvetica, sans-serif;
+      }
+ form {
+      color: white;
+      font-family: 'Oswald', sans-serif;
+      }
+ label{ 
+    color:black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size:12pt;
+      }
+ input{
+    font-family:'Oswald', sans-serif;
+    border:0;
+    font-size:15pt;
+ }
+ .sinborde{
+    border: 0;
+    background-color: white;
+    font-family:'Oswald', sans-serif;
+    font-weight: bold;
+    font-size:15pt;
+} 
+header{
+    margin:0 0 2px 0;
+    height:20%;
+    width:100%;
+    background-color:white ;
+    .tituloview{
+        color:red;
+        font-family:'Abril Fatface', cursive; 
+        font-weight:normal;
+        font-size: 25pt; 
+        height: 3px;
+        text-align:start;
+        transform: translate(80px);
+    }
+    .menu{
+    ul{
+        width:100%;
+        margin:10px 0 10px 0;
+        list-style: none;
+        padding: 0;
+        display:flex;
+        flex-direction:row;
+        justify-content:flex-end;
+        flex-wrap: nowrap;
+        align-items:flex-end;  
+        li{ :hover{
+            background:grey;
+            color:white;
+        }
+            
+            h2{
+                color: black;
+                border:grey 1px; 
+                font-family:'Oswald', sans-serif;
+                font-weight:bold; font-size: 11pt; 
+                border: none;
+                text-decoration:none;
+                a{  
+                    display: block;
+                    padding: 5px 20px;
+                    margin: 1px;
+                    color:black;
+                    text-decoration:none;
+                    
+            }
+        } 
+      }
+     }
+    } 
+}
+/*shop*/
+body{
+    background-color: white;
+    .titshop{
+        font-size:15pt;
+        font-family:'Oswald', sans-serif;
+        color:black;
+        font-weight: bold;
+        display: flex;
+        align-content: center;
+        justify-content: center;    
+    }
+    
+    .gridropa{
+        display: grid;
+        grid-template-areas:
+        "rop1 info1 "
+        "rop2 info2"
+        "rop3 info3"
+        "rop4 info4"
+        "rop5 info5"
+        "rop6 info6"
+        "rop7 info7";
+        grid-template-rows:1fr 1fr;
+        grid-template-columns: auto;
+        height: 100%;
+        margin:5px;
+        justify-content:center;
+        align-items:center;
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+        
+        section#remera1{
+            grid-area:rop1;
+            #ropa1:hover{
+                   width:100%;
+                   #ropa1{ 
+                    width:60%;
+                    transition:0.5s;
+             }}
+           }
+           section#info1{
+            grid-area:info1;
+            p{ 
+                color:black;
+                font-family:'Oswald', sans-serif;
+                font-weight: bold;
+                font-size: 10pt;}
+             
+            .botw{background-color: white;}
+            .botb{background-color: black;}
+            .botbl{background-color: blue;}
+            .botr{background-color : red;}  
+            
+        }
+        section#remera2{
+            grid-area:rop2;
+            #ropa2:hover{
+                width:100%;
+                #ropa2{ 
+                 width:60%;
+                 transition:0.5s;
+          }}
+        }
+        section#info2{
+            grid-area:info2;
+            p{ 
+                color:black;
+                font-family:'Oswald', sans-serif;
+                font-weight: bold;
+                font-size: 10pt;}
+             
+            .botw{background-color: white;}
+            .botb{background-color: black;}
+            .botbl{background-color: blue;}
+            .botr{background-color : red;}  
+             
+        }
+
+        section#remera3{
+            grid-area:rop3;
+            #ropa3:hover{
+                width:100%;
+                #ropa3{ 
+                 width:60%;
+                 transition:0.5s;
+          }}
+           }
+           section#info3{
+            grid-area:info3;
+            p{ 
+                color:black;
+                font-family:'Oswald', sans-serif;
+                font-weight: bold;
+                font-size: 10pt;}
+             
+            .botw{background-color: white;}
+            .botb{background-color: black;}
+            .botbl{background-color: blue;}
+            .botr{background-color : red;}  
+            
+        }   
+    
+           section#remera4{
+            grid-area:rop4;
+            #ropa4:hover{
+                width:100%;
+                #ropa3{ 
+                 width:60%;
+                 transition:0.5s;
+               }
+            }
+        }section#info4{
+        grid-area:info4;
+        p{ 
+            color:black;
+            font-family:'Oswald', sans-serif;
+            font-weight: bold;
+            font-size: 10pt;}
+         
+        .botw{background-color: white;}
+        .botb{background-color: black;}
+        .botbl{background-color: blue;}
+        .botr{background-color : red;}  
+        
+    }
+        section#remera5{
+            grid-area:rop5;
+            #ropa5:hover{
+                width:100%;
+                #ropa3{ 
+                 width:60%;
+                 transition:0.5s;
+               }
+            }
+        }section#info5{
+            grid-area:info5;
+            p{ 
+                color:black;
+                font-family:'Oswald', sans-serif;
+                font-weight: bold;
+                font-size: 10pt;}
+             
+            .botw{background-color: white;}
+            .botb{background-color: black;}
+            .botbl{background-color: blue;}
+            .botr{background-color : red;}  
+             
+        }
+           section#remera6{
+            grid-area:rop6;
+            #ropa6:hover{
+                width:100%;
+                #ropa3{ 
+                 width:60%;
+                 transition:0.5s;
+               }
+            }
+        }
+        section#info6{
+            grid-area:info6;
+            p{ 
+                color:black;
+                font-family:'Oswald', sans-serif;
+                font-weight: bold;
+                font-size: 10pt;}
+             
+            .botw{background-color: white;}
+            .botb{background-color: black;}
+            .botbl{background-color: blue;}
+            .botr{background-color : red;}  
+            
+        }
+        section#remera7{
+            grid-area:rop7;
+            #ropa7:hover{
+                width:100%;
+                #ropa3{ 
+                 width:60%;
+                 transition:0.5s;
+               }
+            }
+        }
+    }  
+        section#info7{
+        grid-area:info7;
+        p{ 
+            color:black;
+            font-family:'Oswald', sans-serif;
+            font-weight: bold;
+            font-size: 10pt;}
+         
+        .botw{background-color: white;}
+        .botb{background-color: black;}
+        .botbl{background-color: blue;}
+        .botr{background-color : red;}  
+        
+    }
+}
+.footer{
+      background-color:white;
+      margin: 10px 0 10px 0;
+      display: flex;
+      flex-direction: row;
+      .footer_img{
+            width: 40%;
+            height: 50%;   
+      }
+      .footer_text{
+        color:black;
+        font-family: 'Oswald', sans-serif;
+      }
+
+}
+/*historia*/
+.bodyhisto{
+    
+.tithistoria{
+    font-size:15pt;
+    font-family:'Oswald', sans-serif;
+    color:black;
+    font-weight: bold;
+    display: flex;
+    align-content: center;
+    justify-content: center; 
+}
+.histo1{
+    .f-1{
+       background-image: url("https://media.gettyimages.com/photos/december-1963-british-rhythm-and-blues-group-the-rolling-stones-from-picture-id3268873?k=6&m=3268873&s=612x612&w=0&h=iIl9F5QNDVpUNq_Bdk6xTQ9jGPjwUcu6Dorxv9BcZKc=") ;      
+       background-size:cover;
+       background-repeat:no-repeat;
+       background-position: center center;
+       width: 450px;
+       height:400px;
+       margin: 10px;
+    }
+    .f-2{
+        background-image: url("https://media.gettyimages.com/photos/the-rolling-stones-taken-in-the-1960s-from-left-to-right-brian-jones-picture-id144610057?k=6&m=144610057&s=612x612&w=0&h=m98c8_DLJp8jD56r_yJTTMIjDvlKVgj9JOrYKM-5ULM=") ;
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position: center center;
+        width: 450px;
+        height:400px;
+        margin: 10px;
+    }
+    .f-3{
+        background-image: url("https://media.gettyimages.com/photos/british-rock-group-the-rolling-stones-comprising-drummer-charlie-picture-id3162556?k=6&m=3162556&s=612x612&w=0&h=pe2Xcrss_Z1bs1K5M6J4PA7Vf9vKYrd-G23Px9SlGus=") ;
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position: center center;
+        width: 450px;
+        height:400px;
+        margin: 10px;
+    }
+    .h-1{
+        p{
+        font-family:'roboto', sans-serif;
+        background-color:black;
+        color:white;
+        font-weight: bolder;
+        font-size:13pt;
+        }
+    }
+    .h-2{
+        -webkit-column-count: 3;
+        -moz-column-count: 3; 
+         column-count: 3;
+        p{
+        font-family:'roboto', sans-serif;
+        color:black;
+        font-weight: bold;
+        font-size: 12pt;
+        }
+    }
+    .h-3{
+        width: 400px;
+        height:400px;
+        margin: 10px;
+        
+        ul{
+            
+        h4{
+            color:white;
+            font-family: 'Oswald', sans-serif;
+            font-size: 15pt;
+        }
+        li{
+        
+        font-family:'Oswald', sans-serif;
+        color:black;
+        font-weight: bold;
+        font-size: 1pt;
+        }
+        }
+    }
+      
+    .f-4{
+        background-image: url("https://media.gettyimages.com/photos/rock-and-roll-band-the-rolling-stones-pose-for-a-portrait-lying-down-picture-id74293326?k=6&m=74293326&s=612x612&w=0&h=FOCO2XoNqM-xrdEIH8i8L9ltl_YWm5TCuvnIbWQ-bdo=") ;
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position: center center;
+        width: 650px;
+        height:450px;
+        margin: 10px;
+    }
+    .h-4{
+        -webkit-column-count: 3;
+        -moz-column-count: 3; 
+         column-count: 3;
+        h3{
+            color: black;
+            font-family: 'Oswald', sans-serif;
+            font-size: 16pt;
+               }
+        
+        p{
+        font-family:'roboto', sans-serif;
+        color:black;
+        font-weight: bold;
+        font-size: 12pt;
+        }
+    }
+    }
+    }  
+  
+
+
+

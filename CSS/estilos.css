@@ -1,0 +1,374 @@
+@import url(header.scss);
+@import url(footer);
+@import url(generales.scss);
+h1 {
+  color: red;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: normal;
+  font-size: 70pt; }
+
+h2 {
+  color: white;
+  border: grey 1px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 11pt;
+  border: none; }
+
+h4 {
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 20pt; }
+
+p {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10pt; }
+
+table {
+  color: black;
+  font-family: Helvetica, sans-serif; }
+
+form {
+  color: white;
+  font-family: 'Oswald', sans-serif; }
+
+label {
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 12pt; }
+
+input {
+  font-family: 'Oswald', sans-serif;
+  border: 0;
+  font-size: 15pt; }
+
+.sinborde {
+  border: 0;
+  background-color: white;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 15pt; }
+
+header {
+  margin: 0 0 2px 0;
+  height: 20%;
+  width: 100%;
+  background-color: white; }
+  header .tituloview {
+    color: red;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: normal;
+    font-size: 25pt;
+    height: 3px;
+    text-align: start;
+    transform: translate(80px); }
+  header .menu ul {
+    width: 100%;
+    margin: 10px 0 10px 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    align-items: flex-end; }
+    header .menu ul li :hover {
+      background: grey;
+      color: white; }
+    header .menu ul li h2 {
+      color: black;
+      border: grey 1px;
+      font-family: 'Oswald', sans-serif;
+      font-weight: bold;
+      font-size: 11pt;
+      border: none;
+      text-decoration: none; }
+      header .menu ul li h2 a {
+        display: block;
+        padding: 5px 20px;
+        margin: 1px;
+        color: black;
+        text-decoration: none; }
+
+/*shop*/
+body {
+  background-color: white; }
+  body .titshop {
+    font-size: 15pt;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-content: center;
+    justify-content: center; }
+  body .gridropa {
+    display: grid;
+    grid-template-areas: "rop1 info1 " "rop2 info2" "rop3 info3" "rop4 info4" "rop5 info5" "rop6 info6" "rop7 info7";
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: auto;
+    height: 100%;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px; }
+    body .gridropa section#remera1 {
+      grid-area: rop1; }
+      body .gridropa section#remera1 #ropa1:hover {
+        width: 100%; }
+        body .gridropa section#remera1 #ropa1:hover #ropa1 {
+          width: 60%;
+          transition: 0.5s; }
+    body .gridropa section#info1 {
+      grid-area: info1; }
+      body .gridropa section#info1 p {
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 10pt; }
+      body .gridropa section#info1 .botw {
+        background-color: white; }
+      body .gridropa section#info1 .botb {
+        background-color: black; }
+      body .gridropa section#info1 .botbl {
+        background-color: blue; }
+      body .gridropa section#info1 .botr {
+        background-color: red; }
+    body .gridropa section#remera2 {
+      grid-area: rop2; }
+      body .gridropa section#remera2 #ropa2:hover {
+        width: 100%; }
+        body .gridropa section#remera2 #ropa2:hover #ropa2 {
+          width: 60%;
+          transition: 0.5s; }
+    body .gridropa section#info2 {
+      grid-area: info2; }
+      body .gridropa section#info2 p {
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 10pt; }
+      body .gridropa section#info2 .botw {
+        background-color: white; }
+      body .gridropa section#info2 .botb {
+        background-color: black; }
+      body .gridropa section#info2 .botbl {
+        background-color: blue; }
+      body .gridropa section#info2 .botr {
+        background-color: red; }
+    body .gridropa section#remera3 {
+      grid-area: rop3; }
+      body .gridropa section#remera3 #ropa3:hover {
+        width: 100%; }
+        body .gridropa section#remera3 #ropa3:hover #ropa3 {
+          width: 60%;
+          transition: 0.5s; }
+    body .gridropa section#info3 {
+      grid-area: info3; }
+      body .gridropa section#info3 p {
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 10pt; }
+      body .gridropa section#info3 .botw {
+        background-color: white; }
+      body .gridropa section#info3 .botb {
+        background-color: black; }
+      body .gridropa section#info3 .botbl {
+        background-color: blue; }
+      body .gridropa section#info3 .botr {
+        background-color: red; }
+    body .gridropa section#remera4 {
+      grid-area: rop4; }
+      body .gridropa section#remera4 #ropa4:hover {
+        width: 100%; }
+        body .gridropa section#remera4 #ropa4:hover #ropa3 {
+          width: 60%;
+          transition: 0.5s; }
+    body .gridropa section#info4 {
+      grid-area: info4; }
+      body .gridropa section#info4 p {
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 10pt; }
+      body .gridropa section#info4 .botw {
+        background-color: white; }
+      body .gridropa section#info4 .botb {
+        background-color: black; }
+      body .gridropa section#info4 .botbl {
+        background-color: blue; }
+      body .gridropa section#info4 .botr {
+        background-color: red; }
+    body .gridropa section#remera5 {
+      grid-area: rop5; }
+      body .gridropa section#remera5 #ropa5:hover {
+        width: 100%; }
+        body .gridropa section#remera5 #ropa5:hover #ropa3 {
+          width: 60%;
+          transition: 0.5s; }
+    body .gridropa section#info5 {
+      grid-area: info5; }
+      body .gridropa section#info5 p {
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 10pt; }
+      body .gridropa section#info5 .botw {
+        background-color: white; }
+      body .gridropa section#info5 .botb {
+        background-color: black; }
+      body .gridropa section#info5 .botbl {
+        background-color: blue; }
+      body .gridropa section#info5 .botr {
+        background-color: red; }
+    body .gridropa section#remera6 {
+      grid-area: rop6; }
+      body .gridropa section#remera6 #ropa6:hover {
+        width: 100%; }
+        body .gridropa section#remera6 #ropa6:hover #ropa3 {
+          width: 60%;
+          transition: 0.5s; }
+    body .gridropa section#info6 {
+      grid-area: info6; }
+      body .gridropa section#info6 p {
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 10pt; }
+      body .gridropa section#info6 .botw {
+        background-color: white; }
+      body .gridropa section#info6 .botb {
+        background-color: black; }
+      body .gridropa section#info6 .botbl {
+        background-color: blue; }
+      body .gridropa section#info6 .botr {
+        background-color: red; }
+    body .gridropa section#remera7 {
+      grid-area: rop7; }
+      body .gridropa section#remera7 #ropa7:hover {
+        width: 100%; }
+        body .gridropa section#remera7 #ropa7:hover #ropa3 {
+          width: 60%;
+          transition: 0.5s; }
+  body section#info7 {
+    grid-area: info7; }
+    body section#info7 p {
+      color: black;
+      font-family: 'Oswald', sans-serif;
+      font-weight: bold;
+      font-size: 10pt; }
+    body section#info7 .botw {
+      background-color: white; }
+    body section#info7 .botb {
+      background-color: black; }
+    body section#info7 .botbl {
+      background-color: blue; }
+    body section#info7 .botr {
+      background-color: red; }
+
+.footer {
+  background-color: white;
+  margin: 10px 0 10px 0;
+  display: flex;
+  flex-direction: row; }
+  .footer .footer_img {
+    width: 40%;
+    height: 50%; }
+  .footer .footer_text {
+    color: black;
+    font-family: 'Oswald', sans-serif; }
+
+/*historia*/
+.bodyhisto .tithistoria {
+  font-size: 15pt;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  align-content: center;
+  justify-content: center; }
+
+.bodyhisto .histo1 .f-1 {
+  background-image: url("https://media.gettyimages.com/photos/december-1963-british-rhythm-and-blues-group-the-rolling-stones-from-picture-id3268873?k=6&m=3268873&s=612x612&w=0&h=iIl9F5QNDVpUNq_Bdk6xTQ9jGPjwUcu6Dorxv9BcZKc=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 450px;
+  height: 400px;
+  margin: 10px; }
+
+.bodyhisto .histo1 .f-2 {
+  background-image: url("https://media.gettyimages.com/photos/the-rolling-stones-taken-in-the-1960s-from-left-to-right-brian-jones-picture-id144610057?k=6&m=144610057&s=612x612&w=0&h=m98c8_DLJp8jD56r_yJTTMIjDvlKVgj9JOrYKM-5ULM=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 450px;
+  height: 400px;
+  margin: 10px; }
+
+.bodyhisto .histo1 .f-3 {
+  background-image: url("https://media.gettyimages.com/photos/british-rock-group-the-rolling-stones-comprising-drummer-charlie-picture-id3162556?k=6&m=3162556&s=612x612&w=0&h=pe2Xcrss_Z1bs1K5M6J4PA7Vf9vKYrd-G23Px9SlGus=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 450px;
+  height: 400px;
+  margin: 10px; }
+
+.bodyhisto .histo1 .h-1 p {
+  font-family: 'roboto', sans-serif;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  font-size: 13pt; }
+
+.bodyhisto .histo1 .h-2 {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3; }
+  .bodyhisto .histo1 .h-2 p {
+    font-family: 'roboto', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 12pt; }
+
+.bodyhisto .histo1 .h-3 {
+  width: 400px;
+  height: 400px;
+  margin: 10px; }
+  .bodyhisto .histo1 .h-3 ul h4 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15pt; }
+  .bodyhisto .histo1 .h-3 ul li {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 1pt; }
+
+.bodyhisto .histo1 .f-4 {
+  background-image: url("https://media.gettyimages.com/photos/rock-and-roll-band-the-rolling-stones-pose-for-a-portrait-lying-down-picture-id74293326?k=6&m=74293326&s=612x612&w=0&h=FOCO2XoNqM-xrdEIH8i8L9ltl_YWm5TCuvnIbWQ-bdo=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 650px;
+  height: 450px;
+  margin: 10px; }
+
+.bodyhisto .histo1 .h-4 {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3; }
+  .bodyhisto .histo1 .h-4 h3 {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16pt; }
+  .bodyhisto .histo1 .h-4 p {
+    font-family: 'roboto', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 12pt; }

@@ -372,3 +372,13 @@ body {
     color: black;
     font-weight: bold;
     font-size: 12pt; }
+
+/*discografia*/
+.bodydisco .titdisco {
+  font-size: 15pt;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  align-content: center;
+  justify-content: center; }

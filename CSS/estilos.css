@@ -415,3 +415,12 @@ body {
           position: relative;
           border-radius: 6px;
           overflow: hidden; }
+        body .container .row .col .small-img-row {
+          display: flex;
+          margin: 20px 0;
+          align-items: center;
+          border-radius: 6px;
+          overflow: hidden;
+          width: 85%; }
+          body .container .row .col .small-img-row .small-img {
+            position: relative; }

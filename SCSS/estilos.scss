@@ -55,67 +55,79 @@ h1{
     font-weight: bold;
     font-size:15pt;
 } 
-header{
-    margin:0 0 2px 0;
-    height:20%;
-    width:100%;
-    background-color:white ;
-    .tituloview{
-        color:red;
-        font-family:'Abril Fatface', cursive; 
-        font-weight:normal;
-        font-size: 25pt; 
-        height: 3px;
-        text-align:start;
-        transform: translate(80px);
-    }
-    .menu{
-    ul{
+
+
+body{
+    margin-top: 80px;
+    height: auto;
+    header{
+        top: 0px;
+        left:0px;
+        right:0px;
+        height:10%;
         width:100%;
-        margin:10px 0 10px 0;
-        list-style: none;
-        padding: 0;
-        display:flex;
-        flex-direction:row;
-        justify-content:flex-end;
-        flex-wrap: nowrap;
-        align-items:flex-end;  
-        li{ :hover{
-            background:grey;
-            color:white;
+        position:fixed;
+        z-index: 100;
+        background-color:white ;
+        .tituloview{
+            color:red;
+            font-family:'Abril Fatface', cursive; 
+            font-weight:normal;
+            font-size: 25pt; 
+            height: 3px;
+            text-align:start;
+            transform: translate(80px);
         }
-            
-            h2{
-                color: black;
-                border:grey 1px; 
-                font-family:'Oswald', sans-serif;
-                font-weight:bold; font-size: 11pt; 
-                border: none;
-                text-decoration:none;
-                a{  
-                    display: block;
-                    padding: 5px 20px;
-                    margin: 1px;
-                    color:black;
-                    text-decoration:none;
-                    
+        .menu{
+        ul{
+            width:100%;
+            margin:10px 0 10px 0;
+            list-style: none;
+            padding: 0;
+            display:flex;
+            flex-direction:row;
+            justify-content:flex-end;
+            flex-wrap: nowrap;
+            align-items:flex-end;  
+            li{ :hover{
+                background:grey;
+                color:white;
             }
+                
+                h2{
+                    color: black;
+                    border:grey 1px; 
+                    font-family:'Oswald', sans-serif;
+                    font-weight:bold; font-size: 11pt; 
+                    border: none;
+                    text-decoration:none;
+                    a{  
+                        display: block;
+                        padding: 5px 20px;
+                        margin: 1px;
+                        color:black;
+                        text-decoration:none;
+                        
+                }
+            } 
+          }
+         }
         } 
-      }
-     }
-    } 
+    }
 }
 /*shop*/
 body{
     background-color: white;
     .titshop{
+        margin: 80px auto 0px;
         font-size:15pt;
         font-family:'Oswald', sans-serif;
         color:black;
         font-weight: bold;
         display: flex;
         align-content: center;
-        justify-content: center;    
+        justify-content: center;   
+         
     }
     
     .gridropa{
@@ -323,6 +335,7 @@ body{
 .bodyhisto{
     
 .tithistoria{
+    margin: 80px auto 0px;
     font-size:15pt;
     font-family:'Oswald', sans-serif;
     color:black;
@@ -431,8 +444,9 @@ body{
     }  
 /*discografia*/ 
 .bodydisco{
-           
+       
     .titdisco{
+         margin: 80px auto 0px;
          font-size:15pt;
          font-family:'Oswald', sans-serif;
          color:black;
@@ -442,7 +456,38 @@ body{
          justify-content: center; 
 }
 }
+/*multimedia*/
+body{
+    
+    background-color: black;
+    .container{
+         width:80%;
+         margin:80px auto;
+         h3{
+             padding:60px;
+             text-align:center;
+         }
+         .row{
+             display:flex;
+             align-items:center;
+             flex-wrap: wrap;
+             .col{
+                 flex-basis:50%;
+                 min-width:250px;
+                 .feature-img{
+                     width:83%;
+                     margin:auto;
+                     position: relative;
+                     border-radius:6px;
+                     overflow: hidden;
 
+                 }
+             }
+         }
+         
+    }
+     
+}
 
 
 

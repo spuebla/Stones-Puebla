@@ -11,38 +11,8 @@ h1{
         font-weight:bold; font-size: 11pt; 
         border: none;
        }
- .header1{
-   
-        margin:0 0 2px 0;
-        height:10%;
-        width:100vh;
-        background-color:black ;
-        
-     }       
- .menu ul{
-             width:1300px;
-             margin:0 0 10px 0;
-             list-style: none;
-             padding: 0;
-             display:flex;
-             flex-direction:row;
-             justify-content:flex-end;
-             flex-wrap: nowrap;
-             align-items:flex-end;       
-     }        
- .menu li:hover{
-                  background:grey;
-                  color: white;
-            }
- .menu li a {
-               display: block;
-               padding: 5px 20px;
-               margin: 1;
-               color:white;
-               text-decoration: none;
-    }
  
- 
+
 body{ 
     background-color: white;
     margin: 10px 5px 10px 5px;

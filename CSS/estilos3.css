@@ -20,18 +20,21 @@ body{
 }
 .TitIndex{
     font-size: 100px;
+    font-family:'permanent marker', cursive; 
+    color: red;
+    background-color:none;
     display: flex;
     flex-direction:row;
     flex-wrap: nowrap;
     align-items: stretch;
     align-content:flex-start;
     position: absolute;
-    top:480px;
-    left: 0;
-    right: 0;
+    top:400px;
+    left: 100px;
+    right: 0px;
     margin: 0px;
 }
-div { background-color:white;
+div { background-color:none;
      margin: 1px;
      width:100%;
     
@@ -39,7 +42,7 @@ div { background-color:white;
 section{ 
         background-color: white;
         width:100%;
-        margin: 0px;
+        margin: 60px 10px 10px;
 }
 
 .container-fluid{
